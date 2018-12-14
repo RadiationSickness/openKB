@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  openkb:
+    container_name: openkb
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "4444:4444"
