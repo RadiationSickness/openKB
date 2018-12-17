@@ -66,6 +66,16 @@ html{
     font-size: 14px;
 }
 
+#frm_search{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#btn_search{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
 .list-group-heading{
     color: #2c3e50;
     background-color: #ecf0f1;
